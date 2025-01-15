@@ -1,0 +1,18 @@
+#navStyle{
+    background-color: aqua;
+} 
+.navbar-toggler {
+    border: none; /* Sin bordes para el botón de hamburguesa */
+}
+.card {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta el tamaño */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra pronunciada */
+    border: 2px solid rgba(0, 123, 255, 0.7); /* Borde color azul */
+}
